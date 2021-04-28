@@ -1,0 +1,11 @@
+---
+application:
+  name: "max-torrent-leech-v2"
+  project: "asdf1"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-max-torrent-leech-v2"
+  routes:
+  - application_name: "max-torrent-leech-v2"
+    paths:
+    - "/*"
